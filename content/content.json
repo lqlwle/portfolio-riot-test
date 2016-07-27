@@ -1,0 +1,51 @@
+{
+  "projects":[
+{
+  "MainText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+  "PictureLink": "pictures/Artboard 1.png",
+  "Title": "DB Netze App"
+},
+{
+  "MainText": "123456789 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+  "PictureLink": "pictures/Artboard 2.png",
+  "Title": "UI/UX – Trecker.com"
+
+},
+{
+  "MainText": "123456789 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+  "PictureLink": "pictures/Artboard 3.png",
+  "Title": "Vibrosense"
+
+},
+{
+  "MainText": "123456789 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+  "PictureLink": "pictures/Artboard 4.png",
+  "Title": "Wearables – Gardening"
+
+},
+{
+  "MainText": "123456789 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+  "PictureLink": "pictures/Artboard 5.png",
+  "Title": "Container Monitoring"
+
+},
+{
+  "MainText": "123456789 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+  "PictureLink": "pictures/Artboard 6.png",
+  "Title": "Concept – Quit"
+
+},
+{
+  "MainText" : "123456789 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+  "PictureLink": "pictures/Artboard 7.png",
+  "Title": "Creative Coding"
+
+},
+{
+  "MainText" : "123456789 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+  "PictureLink": "pictures/Artboard 8.png",
+  "Title": "TEI 2014 – Copyright"
+
+}
+]
+}

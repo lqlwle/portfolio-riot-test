@@ -1,0 +1,296 @@
+* {
+
+}
+
+html {
+
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   border:0;
+   width: 100%;
+   text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 14px;
+  font-family: serif;
+  font-weight:lighter;
+}
+
+/*#allContent:after{
+  clear: both;
+  content: "";
+  display: block;
+}*/
+
+#allContent{
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+projectContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border:0;
+  text-align: center;
+}
+
+.hoverthis:hover {
+  font-weight:bolder;
+}
+
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   #allContent{
+     width: 100%;
+   }
+
+   .projectDiv {
+      width: 100%;
+   }
+
+   .projectDiv:after{
+      padding-bottom:100%;
+   }
+   .selfpress {
+     width: 100%;
+   }
+
+}
+@media only screen and (max-width : 799px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+
+   .projectDiv {
+      width: 49.8%;
+   }
+   .projectDiv:after{
+      padding-bottom:49.8%;
+   }
+   .selfpress {
+     width: 49.8%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 800px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .projectDiv {
+      width: 33%;
+   }
+   .projectDiv:after{
+      padding-bottom:33%;
+   }
+   .selfpress {
+     width: 33%;
+   }
+}
+@media only screen and (max-width : 1200px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   .projectDiv {
+      width: 24.9%;
+   }
+   .projectDiv:after{
+      padding-bottom:24.9%;
+   }
+   .selfpress {
+     width: 24.9%;
+   }
+}
+@media only screen and (min-width : 1201px) {
+   /* Medium desktop: 4 tiles */
+
+   /*#allContent{
+     margin-left:15%;
+   }*/
+   #projectmover {
+     width:55%;
+   }
+   .projectDiv {
+      width: 49.5%;
+   }
+   .projectDiv:after{
+      padding-bottom:49.5%;
+   }
+   .selfpress {
+     width: 45%;
+   }
+}
+
+#projectmover {
+
+  overflow:hidden;
+  float:left;
+  /*margin-top:250px;*/
+
+}
+
+.selfpress {
+  float: left;
+  position:relative;
+  background-color: #FFFFFF;
+  /*border: 2px solid #000000;*/
+  /*background-color:white;*/
+}
+
+.selfpress:after{
+  content: "";
+  display: block;
+  padding-bottom: 200%;
+}
+
+#portrait{
+  width:40%;
+  max-width: 120px;
+  background-color: #c7c7c7;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#innerContent2{
+  position:absolute;
+  top:8%;
+  width:100%;
+  height:70%;
+  background-color:white;
+  text-align:left;
+}
+
+#innerContent3{
+  width:100%;
+  padding-bottom: 100%;
+  background-color:#c7c7c7;
+  text-align: left;
+}
+
+#selfpresstext{
+  font-size:16px;
+  font-family:sans-serif;
+  line-height: 150%;
+  font-weight: lighter;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+#programmingstuff {
+  padding:3px;
+}
+
+.projectDiv{
+  position:relative;
+  float: left;
+  border: 0.5px solid #909090;
+  /*background-color: #c7c7c7;*/
+  transition: all 0.2s;
+}
+
+.projectDiv:after{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.innerContent {
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-color:#c7c7c7;
+}
+
+.binder {
+  position:relative;
+  text-align: center;
+  top: 60%;
+  width: 100%;
+  height: 18%;
+  background-color:rgba(230, 230, 230, 0.8);
+  transition: all 0.5s;
+}
+
+.imgTitle {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 33%;
+  /*bottom: 0;*/
+  /*left: 50;*/
+  /*right: 0;*/
+  /*background: rgba(29, 106, 154, 0.72);*/
+  color: black;
+  transition: all 0.4s;
+}
+
+.desText {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  position:relative;
+  top:15%;
+  transition: all 2s;
+  opacity:0;
+}
+
+.shrinkAbit{
+  width:200px;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  overflow: hidden;
+  transition: all 0.1s;
+}
+
+.shrink {
+  width: 0px !important;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.1s;
+}
+
+.disappearNow {
+  display:none;
+
+}
+
+.project-div-pic {
+  align: top;
+  max-width:100%;
+  height: 100%;
+  /*display:block;*/
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  /*bottom: 0;*/
+  left: 0;
+  /*right: 0;*/
+  margin: auto;
+}
+
+
+#header{
+  padding-bottom:20px;
+  padding-top:20px;
+  text-align: center;
+  width:100%;
+  background-color:#FFFFFF;
+  height: 100px;
+}

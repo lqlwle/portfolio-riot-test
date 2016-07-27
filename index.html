@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>Riot JS Demo</title>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+
+
+  <projectContainer></projectContainer>
+
+  <script src="bower_components/riot/riot.js"></script>
+  <script src="tags/all.js"></script>
+
+  <script>
+
+      riot.mount("projectContainer", {data:[2,2,3]});
+
+
+      window.onscroll=function(){changeMenu()}
+      var scrollBarPosition;
+
+      function changeMenu()
+      {
+          scrollBarPosition = window.pageYOffset | document.body.scrollTop;
+          console.log(scrollBarPosition);
+          // At specifiv position do what you want
+          //document.getElementById('projectmover').style.marginTop = scrollBarPosition + 'px';
+          // if(scrollBarPosition == 0) {
+          //
+          // }
+          // else {
+          //     document.getElementById('status').innerHTML = "User is not on top of the page, position="  + scrollBarPosition;
+          // }
+      }
+
+  </script>
+</body>
+</html>
